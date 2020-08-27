@@ -1,0 +1,236 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300|Unica+One);
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #404040; }
+
+h1 {
+  font-family: "Unica One", cursive;
+  color: #404040;
+  font-size: 20px; }
+
+h3 {
+  font-family: "Unica One", cursive;
+  color: #0000ff; }
+
+.pmgintro {
+  font-family: "Roboto", sans-serif;
+  color: #404040;
+  text-align: center;
+  font-size: 20px; }
+
+.hr {
+  width: 95%;
+  font-size: 0.1px;
+  color: #e6e6e6;
+  line-height: 2px;
+  background-color: #e6e6e6;
+  margin-top: -6px;
+  margin-bottom: 10px; }
+
+button {
+  background-color: #c2c2fc;
+  text-align: center;
+  font-family: "Unica One", cursive;
+  transition-duration: 0.5s;
+  border: none;
+  padding: 6px 15px;
+  font-size: 17px;
+  border-radius: 60px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: #404040; }
+  button a {
+    text-decoration: underline;
+    color: #e6e6e6; }
+
+.flexbox {
+  display: flex;
+  height: 100vh; }
+
+.leftpageindex {
+  width: 45%;
+  background-image: url(../images/mtg.jpg);
+  background-size: cover;
+  background-position: 28% 90%; }
+
+.rightpage {
+  width: 45%;
+  background-color: #ffffff;
+  text-align: center; }
+
+.leftpageservices {
+  width: 45%;
+  background-image: url(../images/connect.jpg);
+  background-size: cover;
+  background-position: 54% 90%; }
+
+.navigationpane {
+  width: 10%;
+  padding-top: 5%;
+  background-image: url(../images/gray_jean.png);
+  text-align: center; }
+  .navigationpane img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
+
+.rightpageserv {
+  width: 45%;
+  background-color: #ffffff;
+  text-align: center;
+  overflow-y: scroll; }
+
+.rightpageservices {
+  text-align: center;
+  padding-left: 49px;
+  padding-top: 10px;
+  padding-right: 49px; }
+
+.rightpageourteam {
+  width: 45%;
+  background-image: url(../images/handsin.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-right: 0; }
+
+.leftpageservicescontact {
+  width: 45%;
+  background-image: url(../images/collab.jpg);
+  background-size: cover;
+  background-position: 68% 90%; }
+
+nav {
+  font-family: "Unica One", cursive;
+  font-size: 21px;
+  text-align: center; }
+  nav a {
+    text-decoration: none;
+    color: #404040; }
+  nav a:hover {
+    background: #c2c2fc;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px; }
+
+.imgstyle {
+  float: left;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  padding: 8px; }
+
+.item1 {
+  grid-area: director; }
+
+.item2 {
+  grid-area: ass1; }
+
+.item3 {
+  grid-area: ass2; }
+
+.item4 {
+  grid-area: ass3; }
+
+.item5 {
+  grid-area: intern1; }
+
+.item6 {
+  grid-area: intern2; }
+
+.item7 {
+  grid-area: intern3; }
+
+.item8 {
+  grid-area: intern4; }
+
+.teamgrid {
+  display: grid;
+  grid-template-areas: "director director director director director director" "ass2 ass2 ass1 ass1 ass3 ass3" "intern1 intern1 intern1 intern2 intern2 intern2" "intern3 intern3 intern3 intern4 intern4 intern4";
+  background-color: #ffffff;
+  padding: 10px; }
+  .teamgrid div {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 5px 0; }
+  .teamgrid img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid #e6e6e6; }
+
+.condense {
+  display: none; }
+
+.pic1 {
+  grid-area: pic1; }
+
+.pic2 {
+  grid-area: pic2; }
+
+.pic3 {
+  grid-area: pic3; }
+
+.pic4 {
+  grid-area: pic4; }
+
+.pic5 {
+  grid-area: pic5; }
+
+.pic6 {
+  grid-area: pic6; }
+
+.pic7 {
+  grid-area: pic7; }
+
+.pic8 {
+  grid-area: pic8; }
+
+.ourworkgrid {
+  display: grid;
+  grid-template-areas: "pic1 pic1 pic2 pic2 pic3 pic3" "pic4 pic4 pic5 pic5 pic6 pic6" "pic7 pic7 pic7 pic8 pic8 pic8";
+  background-color: #ffffff;
+  padding: 5px; }
+  .ourworkgrid img {
+    width: 190px;
+    height: 125px;
+    border-radius: 8px; }
+
+form {
+  margin-top: 20px;
+  transition: all 4s ease-in-out; }
+
+.formstyle {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 0.5px solid #c2c2fc;
+  color: #404040;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 16px; }
+
+input {
+  height: 40px;
+  font-family: "Roboto", sans-serif; }
+
+input:focus, textarea:focus {
+  background-color: #c2c2fc; }
+
+textarea {
+  height: 10em; }
+
+/* -------------------------- scroll bar */
+::-webkit-scrollbar {
+  width: 7px; }
+
+::-webkit-scrollbar-track {
+  border-radius: 25px; }
+
+::-webkit-scrollbar-thumb {
+  background: #404040;
+  border-radius: 3px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c2c2fc; }
+
+/*# sourceMappingURL=index.css.map */

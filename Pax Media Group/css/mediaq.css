@@ -1,0 +1,87 @@
+@media (max-width: 875px){
+    nav {
+       font-size: 18px;
+   }
+
+    .imgstyle {
+        display: none;
+   }
+
+.ourworkgrid {
+   grid-template-areas: 
+      'pic1 pic2'
+      'pic3 pic4'
+      'pic5 pic6'
+      'pic7 pic8';
+}
+
+.ourworkgrid img {
+   width: 90%;
+   height: auto;
+}
+
+}
+
+@media (max-width: 800px){
+   nav {
+      font-size: 15px;
+  }
+
+  .rightpage img {
+     width: 90%;
+     height: auto;
+     padding-top: 15%;
+  }
+  .teamgrid {
+     padding-top: 10%;
+  }
+  .teamgrid img {
+      height: 75px;
+      width: 75px;
+  }
+  .condense1 {
+     display: none;
+  }
+  .condense {
+     display: block;
+  }
+}
+
+@media (max-width: 645px){
+   .ourworkgrid img {
+      width: 90%;
+      height: auto;
+   }
+
+}
+
+@media (max-width: 600px){
+   .teamgrid {
+    grid-template-areas: 
+    'director' 
+    'ass2' 
+    'ass1' 
+    'ass3' 
+    'intern1' 
+    'intern2'
+    'intern3'
+    'intern4';
+   }
+   .teamgrid img {
+      height: 100px;
+      width: 100px;
+  }
+}
+
+@media (max-width: 415px){
+   .leftpageindex, .rightpageourteam, .leftpageservicescontact, .leftpageservices  {
+      display: none;
+   }
+   .navigationpane {
+      width: 25%;
+      padding-top: 30%;
+   }
+   .rightpage, .rightpageserv {
+      width: 75%;
+   }
+}
